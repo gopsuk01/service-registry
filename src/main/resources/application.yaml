@@ -1,0 +1,22 @@
+server:
+  port: 8761
+
+management:
+  server:
+    port: 9761
+spring:
+  application:
+    name: service-registry
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+
+#  git init
+#  git add README.md
+#  git commit -m "first commit"
+#  git branch -M main
+#  git remote add origin https://github.com/gopsuk01/service-registry.git
+#  git push -u origin main
